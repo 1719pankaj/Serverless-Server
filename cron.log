@@ -1,0 +1,16 @@
+Running main.py...
+[2024-12-24 14:22:48] Starting runner script
+[2024-12-24 14:22:48] Executing main.py...
+[2024-12-24 14:22:48] Python script executed successfully
+[2024-12-24 14:22:48] Output: 
+[2024-12-24 14:22:48] Runner script completed
+[2024-12-24 14:25:01] Starting runner script
+[2024-12-24 14:25:01] Executing main.py...
+[2024-12-24 14:25:01] Python script executed successfully
+[2024-12-24 14:25:01] Output: 
+[2024-12-24 14:25:01] Runner script completed
+[2024-12-24 14:30:01] Starting runner script
+[2024-12-24 14:30:01] Executing main.py...
+[2024-12-24 14:30:01] Python script executed successfully
+[2024-12-24 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
+[2024-12-24 14:30:01] Runner script completed
