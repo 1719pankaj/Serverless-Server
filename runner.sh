@@ -15,14 +15,32 @@ if [ -f "$MAIN_PY" ]; then
     if output=$(python3 "$MAIN_PY" 2>&1); then
         log "Python script executed successfully"
         log "Output: $output"
+        
+        # Git operations
+        cd "${SCRIPT_DIR}"
+        log "Starting git operations..."
+        
+        if git add .; then
+            log "Git add successful"
+            if git commit -m "Auto-commit $(date '+%Y-%m-%d %H:%M:%S')"; then
+                log "Git commit successful"
+                if git push; then
+                    log "Git push successful"
+                else
+                    log "Git push failed"
+                    exit 1
+                fi
+            else
+                log "Git commit failed"
+                exit 1
+            fi
+        else
+            log "Git add failed"
+            exit 1
+        fi
     else
         log "Error executing Python script. Exit code: $?"
         log "Error output: $output"
         exit 1
     fi
-else
-    log "Error: main.py not found at $MAIN_PY"
-    exit 1
 fi
-
-log "Runner script completed"
