@@ -34,9 +34,7 @@ if [ -f "$MAIN_PY" ]; then
             if git commit -m "${RANDOM_WORD}"; then
                 log "Git commit successful"
                 # Generate random number 1-10
-                RAND_NUM=$(( $RANDOM % 10 + 1 ))
-                log "Random number generated: $RAND_NUM"
-                
+                RAND_NUM=$(( $RANDOM % 10 + 1 ))                
                 if [ $RAND_NUM -le 4 ]; then
                     if git push; then
                         log "Git push successful"
