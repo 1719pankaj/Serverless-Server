@@ -33,11 +33,19 @@ if [ -f "$MAIN_PY" ]; then
             log "Git add successful"
             if git commit -m "${RANDOM_WORD}"; then
                 log "Git commit successful"
-                if git push; then
-                    log "Git push successful"
+                # Generate random number 1-10
+                RAND_NUM=$(( $RANDOM % 10 + 1 ))
+                log "Random number generated: $RAND_NUM"
+                
+                if [ $RAND_NUM -le 4 ]; then
+                    if git push; then
+                        log "Git push successful (40% probability hit)"
+                    else
+                        log "Git push failed"
+                        exit 1
+                    fi
                 else
-                    log "Git push failed"
-                    exit 1
+                    log "Skipping push (60% probability hit)"
                 fi
             else
                 log "Git commit failed"
