@@ -14,3 +14,195 @@ Running main.py...
 [2024-12-24 14:30:01] Python script executed successfully
 [2024-12-24 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
 [2024-12-24 14:30:01] Runner script completed
+[2024-12-25 14:30:01] Starting runner script
+[2024-12-25 14:30:01] Executing main.py...
+[2024-12-25 14:30:01] Python script executed successfully
+[2024-12-25 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
+[2024-12-25 14:30:01] Runner script completed
+[2024-12-26 14:30:01] Starting runner script
+[2024-12-26 14:30:01] Executing main.py...
+[2024-12-26 14:30:01] Python script executed successfully
+[2024-12-26 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
+[2024-12-26 14:30:01] Runner script completed
+[2024-12-27 14:30:01] Starting runner script
+[2024-12-27 14:30:01] Executing main.py...
+[2024-12-27 14:30:01] Python script executed successfully
+[2024-12-27 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
+[2024-12-27 14:30:01] Runner script completed
+[2024-12-28 14:30:01] Starting runner script
+[2024-12-28 14:30:01] Executing main.py...
+[2024-12-28 14:30:01] Python script executed successfully
+[2024-12-28 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
+[2024-12-28 14:30:01] Runner script completed
+[2024-12-29 14:30:01] Starting runner script
+[2024-12-29 14:30:01] Executing main.py...
+[2024-12-29 14:30:01] Python script executed successfully
+[2024-12-29 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
+[2024-12-29 14:30:01] Runner script completed
+[2024-12-30 14:30:01] Starting runner script
+[2024-12-30 14:30:01] Executing main.py...
+[2024-12-30 14:30:01] Python script executed successfully
+[2024-12-30 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
+[2024-12-30 14:30:01] Runner script completed
+[2024-12-31 14:30:01] Starting runner script
+[2024-12-31 14:30:01] Executing main.py...
+[2024-12-31 14:30:01] Python script executed successfully
+[2024-12-31 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
+[2024-12-31 14:30:01] Runner script completed
+[2025-01-01 14:30:01] Starting runner script
+[2025-01-01 14:30:01] Executing main.py...
+[2025-01-01 14:30:01] Python script executed successfully
+[2025-01-01 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
+[2025-01-01 14:30:01] Runner script completed
+[2025-01-02 14:30:01] Starting runner script
+[2025-01-02 14:30:01] Executing main.py...
+[2025-01-02 14:30:01] Python script executed successfully
+[2025-01-02 14:30:01] Output: Successfully wrote to /home/ubuntu/Serverless-Server/timelog.txt
+[2025-01-02 14:30:01] Runner script completed
+[2025-01-02 17:58:48] Starting runner script
+[2025-01-02 17:58:48] Executing main.py...
+[2025-01-02 17:58:48] Python script executed successfully
+[2025-01-02 17:58:48] Output: Updated README.md with timestamp and ensured it's under 100 lines.
+[2025-01-02 17:58:48] Runner script completed
+[2025-01-02 17:59:01] Starting runner script
+[2025-01-02 17:59:01] Executing main.py...
+[2025-01-02 17:59:01] Python script executed successfully
+[2025-01-02 17:59:01] Output: Updated README.md with timestamp and ensured it's under 100 lines.
+[2025-01-02 17:59:01] Runner script completed
+[2025-01-02 18:00:14] Starting runner script
+[2025-01-02 18:00:14] Executing main.py...
+[2025-01-02 18:00:14] Python script executed successfully
+[2025-01-02 18:00:14] Output: Updated README.md with timestamp and ensured it's under 100 lines.
+[2025-01-02 18:00:14] Runner script completed
+[2025-01-02 18:00:37] Starting runner script
+[2025-01-02 18:00:37] Executing main.py...
+[2025-01-02 18:00:37] Error executing Python script. Exit code: 1
+[2025-01-02 18:00:37] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:05:01] Starting runner script
+[2025-01-02 18:05:01] Executing main.py...
+[2025-01-02 18:05:02] Error executing Python script. Exit code: 1
+[2025-01-02 18:05:02] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:08:01] Starting runner script
+[2025-01-02 18:08:01] Executing main.py...
+[2025-01-02 18:08:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:08:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:09:01] Starting runner script
+[2025-01-02 18:09:01] Executing main.py...
+[2025-01-02 18:09:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:09:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:10:01] Starting runner script
+[2025-01-02 18:10:01] Executing main.py...
+[2025-01-02 18:10:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:10:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:11:01] Starting runner script
+[2025-01-02 18:11:01] Executing main.py...
+[2025-01-02 18:11:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:11:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:12:01] Starting runner script
+[2025-01-02 18:12:01] Executing main.py...
+[2025-01-02 18:12:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:12:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:13:01] Starting runner script
+[2025-01-02 18:13:01] Executing main.py...
+[2025-01-02 18:13:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:13:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:16:33] Starting runner script
+[2025-01-02 18:16:33] Executing main.py...
+[2025-01-02 18:16:33] Python script executed successfully
+[2025-01-02 18:16:33] Output: Updated TIMELOG.md with timestamp and ensured it's under 100 lines.
+[2025-01-02 18:16:33] Runner script completed
+[2025-01-02 18:19:01] Starting runner script
+[2025-01-02 18:19:01] Executing main.py...
+[2025-01-02 18:19:02] Error executing Python script. Exit code: 1
+[2025-01-02 18:19:02] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:20:01] Starting runner script
+[2025-01-02 18:20:01] Executing main.py...
+[2025-01-02 18:20:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:20:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:21:01] Starting runner script
+[2025-01-02 18:21:01] Executing main.py...
+[2025-01-02 18:21:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:21:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:22:01] Starting runner script
+[2025-01-02 18:22:01] Executing main.py...
+[2025-01-02 18:22:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:22:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:23:01] Starting runner script
+[2025-01-02 18:23:01] Executing main.py...
+[2025-01-02 18:23:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:23:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:24:01] Starting runner script
+[2025-01-02 18:24:01] Executing main.py...
+[2025-01-02 18:24:01] Error executing Python script. Exit code: 1
+[2025-01-02 18:24:01] Error output: Traceback (most recent call last):
+  File "/home/ubuntu/Serverless-Server/Load/main.py", line 10, in <module>
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'TIMELOG.md'
+[2025-01-02 18:33:01] Starting runner script
+[2025-01-02 18:33:01] Executing main.py...
+[2025-01-02 18:33:01] Python script executed successfully
+[2025-01-02 18:33:01] Output: Updated /home/ubuntu/Serverless-Server/Load/../TIMELOG.md with timestamp and ensured it's under 100 lines.
+[2025-01-02 18:33:01] Runner script completed
+[2025-01-02 18:34:01] Starting runner script
+[2025-01-02 18:34:01] Executing main.py...
+[2025-01-02 18:34:01] Python script executed successfully
+[2025-01-02 18:34:01] Output: Updated /home/ubuntu/Serverless-Server/Load/../TIMELOG.md with timestamp and ensured it's under 100 lines.
+[2025-01-02 18:34:01] Runner script completed
+[2025-01-02 18:35:01] Starting runner script
+[2025-01-02 18:35:01] Executing main.py...
+[2025-01-02 18:35:01] Python script executed successfully
+[2025-01-02 18:35:01] Output: Updated /home/ubuntu/Serverless-Server/Load/../TIMELOG.md with timestamp and ensured it's under 100 lines.
+[2025-01-02 18:35:01] Runner script completed

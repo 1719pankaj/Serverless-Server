@@ -1,17 +1,26 @@
 from datetime import datetime
 import os
 
-def log_time():
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    log_file = os.path.join(os.path.dirname(script_dir), "timelog.txt")
-    
-    try:
-        with open(log_file, "a") as f:
-            f.write(f"{timestamp}\n")
-        print(f"Successfully wrote to {log_file}")  # Debug output
-    except IOError as e:
-        print(f"Error writing to log file {log_file}: {e}")
+# File path
+script_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(script_dir, "..", "TIMELOG.md")
 
-if __name__ == "__main__":
-    log_time()
+# Get the current timestamp
+current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# Read the file content
+with open(file_path, "r") as file:
+    lines = file.readlines()
+
+# Append the timestamp to the first line
+lines.insert(0, f"Timestamp: {current_timestamp}\n")
+
+# If the file has more than 100 lines, truncate the excess lines
+if len(lines) > 100:
+    lines = lines[:100]
+
+# Write the updated content back to the file
+with open(file_path, "w") as file:
+    file.writelines(lines)
+
+print(f"Updated {file_path} with timestamp and ensured it's under 100 lines.")

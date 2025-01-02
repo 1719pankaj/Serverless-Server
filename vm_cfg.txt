@@ -1,0 +1,4 @@
+>>crontab -e
+0 18 * * * cd /home/ubuntu/gitshit && bash /home/ubuntu/gitshit/theCrazyScript.sh >> /home/ubuntu/gitshit/cron.log 2>&1
+1 18 * * * cd /home/ubuntu/gitshit && bash /home/ubuntu/gitshit/theCrazyScript.sh >> /home/ubuntu/gitshit/cron.log 2>&1
+2 18 * * * cd /home/ubuntu/gitshit && bash /home/ubuntu/gitshit/theCrazyScript.sh >> /home/ubuntu/gitshit/cron.log 2>&1
