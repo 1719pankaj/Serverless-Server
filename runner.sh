@@ -21,7 +21,7 @@ if [ -f "$MAIN_PY" ]; then
         log "Starting git operations..."
         
         # Get random word for commit message
-        WORD_FILE="${SCRIPT_DIR}/word.txt"
+        WORD_FILE="${SCRIPT_DIR}/words.txt"
         if [ -f "$WORD_FILE" ]; then
             RANDOM_WORD=$(shuf -n 1 "$WORD_FILE")
         else
