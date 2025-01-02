@@ -39,13 +39,11 @@ if [ -f "$MAIN_PY" ]; then
                 
                 if [ $RAND_NUM -le 4 ]; then
                     if git push; then
-                        log "Git push successful (40% probability hit)"
+                        log "Git push successful"
                     else
                         log "Git push failed"
                         exit 1
                     fi
-                else
-                    log "Skipping push (60% probability hit)"
                 fi
             else
                 log "Git commit failed"
