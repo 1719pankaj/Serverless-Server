@@ -20,9 +20,18 @@ if [ -f "$MAIN_PY" ]; then
         cd "${SCRIPT_DIR}"
         log "Starting git operations..."
         
+        # Get random word for commit message
+        WORD_FILE="${SCRIPT_DIR}/word.txt"
+        if [ -f "$WORD_FILE" ]; then
+            RANDOM_WORD=$(shuf -n 1 "$WORD_FILE")
+        else
+            RANDOM_WORD="update"
+            log "word.txt not found, using default word"
+        fi
+        
         if git add .; then
             log "Git add successful"
-            if git commit -m "Auto-commit $(date '+%Y-%m-%d %H:%M:%S')"; then
+            if git commit -m "${RANDOM_WORD} $(date '+%Y-%m-%d %H:%M:%S')"; then
                 log "Git commit successful"
                 if git push; then
                     log "Git push successful"
