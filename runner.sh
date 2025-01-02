@@ -26,12 +26,12 @@ if [ -f "$MAIN_PY" ]; then
             RANDOM_WORD=$(shuf -n 1 "$WORD_FILE")
         else
             RANDOM_WORD="update"
-            log "word.txt not found, using default word"
+            log "words.txt not found, using default word"
         fi
         
         if git add .; then
             log "Git add successful"
-            if git commit -m "${RANDOM_WORD} $(date '+%Y-%m-%d %H:%M:%S')"; then
+            if git commit -m "${RANDOM_WORD}"; then
                 log "Git commit successful"
                 if git push; then
                     log "Git push successful"
